@@ -1,0 +1,28 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "description": "A Simple project for learning how to use Rollup.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinnett/rollup-starter.git"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "Martin_nett <dothide@gmail.com> (https://github.com/DotHide)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinnett/rollup-starter/issues"
+  },
+  "homepage": "https://github.com/martinnett/rollup-starter#readme",
+  "devDependencies": {
+    "rollup": "0.41.4"
+  },
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
