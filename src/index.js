@@ -1,7 +1,9 @@
-var uniqueRandomArray = require('unique-random-array');
-var starWarsNames = require('./starwars-names.json');
-var getRandomItem = uniqueRandomArray(starWarsNames);
+import random from './lib';
+import debug from 'debug';
 
-module.exports = function random() {
-  return getRandomItem();
-};
+const log = debug('app:log');
+const rd = random();
+debug.enable('*');
+log(rd);
+
+document.write(rd);
